@@ -1,5 +1,7 @@
 # Textbook-Library
 
+Please visit the home page or about page to learn more about this website's goal and purpose!
+
 Features:
 1. Brand Logo and Name - FINISHED
 2. Website Header - FINISHED
