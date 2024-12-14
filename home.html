@@ -19,62 +19,41 @@
             <a class="logo"><image class="logo" src="images/textbook_library_logo.png" width=80px border-radius=50%></image></a>
             <div class="search-container">
                 <form action="/action_page.php">
-                  <input type="text" placeholder="Search.." name="search">
+                  <input type="text" placeholder="Search..." name="search">
                   <button type="submit"><i class="fa fa-search" src="search.png"></i></button>
                 </form>
             </div>
             <div class="header-right">
-                <a href="home.html" class="active" href="#home">Home</a>
+                <a href="home.html" class="active">Home</a>
+                <a href="addBook.html">Add Textbook</a>
+                <a href="requestBook.html">Request Textbook</a>
                 <a href="about.html" href="#about">About</a>
-                <a href="#addBook">Add Textbook</a>
-                <a href="#contact">Give Feedback</a>
+                <a href="feedback.html">Give Feedback</a>
             </div>
         </div>
 
         <div>
-            <h1>How To Use:</h2>
+            <h1>Welcome to the Textbook Library!</h1>
+            <h2>How To Use:</h2>
             <p>If you want to search for a textbook, type in the title, author, ISBN #, or even the class in the header's search bar to find any results!</p>
             <p>If you've found a textbook and want to add to our library, press the "Add Textbook" button in the header.</p>
+            <p>If you want to request a textbook, press the "Request Textbook" button in the header.</p>
+            <p>To learn more about our mission, press the "About" button in the header.</p>
+            <p>To send us any recommendations for our library, press the "Give Feedback" button in the header.</p>
+        </div> <br> 
+
+        <h1>Textbooks:</h1>
+        <div class="textbook">
+            <a target="_blank" href="https://www.amazon.com/Grasping-Gods-Word-Fourth-Hands/dp/0310109175/ref=asc_df_0310109175?mcid=8d039abd16af3cdcad44d9c6bf9effda&tag=hyprod-20&linkCode=df0&hvadid=693674918139&hvpos=&hvnetw=g&hvrand=3327122983676677108&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9031717&hvtargid=pla-989894342835&psc=1">
+                <h2>Grasping God's Word</h2></a>
+            <p>ISBN-13: 978-0310109174</p>
+            <p>Author: J. Scott Duvall / J. Daniel Hays</p>
+            <p>Price: $27.00</p>
         </div>
         
-        
-        
-        
-        <!-- 
-        <section>
-            <h1>TEXT EDITOR</h1>
-            <div class="button-container">
-                <button onclick="editoroption1()" title="Bold Text">
-                    Bold
-                </button>
-                <button onclick="editoroption2()" title="Italic Text">
-                    Italic
-                </button>
-                <button onclick="editoroption3()" title="Left Align">
-                    <i class="fas fa-align-left"></i>
-                </button>
-                <button onclick="editoroption4()" title="Center Align">
-                    <i class="fas fa-align-center"></i>
-                </button>
-                <button onclick="editoroption5()" title="Right Align">
-                    <i class="fas fa-align-right"></i>
-                </button>
-                <button onclick="editoroption6()" title="Uppercase Text">
-                    Upper Case
-                </button>
-                <button onclick="editoroption7()" title="Lowercase Text">
-                    Lower Case
-                </button>
-                <button onclick="editoroption8()" title="Capitalize Text">
-                    Capitalize
-                </button>
-                <button onclick="editoroption9()" title="Clear Text">
-                    Clear Text
-                </button>
-            </div>
-            <textarea id="textarea1" rows="15" placeholder="Your text here...">
-            </textarea>
-        </section>
-        -->
+        <footer>
+            <p>Interested in joining our team? Let's connect!</p>
+            <a href="mailto:fakeemail@gmail.com" style="color:blue">Send an email</a>
+        </footer>
     </body>
 </html>

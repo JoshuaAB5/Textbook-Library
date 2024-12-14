@@ -1,0 +1,59 @@
+<!-- 
+    git add .
+    git commit -m "~~~"
+    git push
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Textbook Library</title>
+        <link rel="stylesheet" href="home.css">
+        <link rel="stylesheet" href="feedback.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css">
+    <script src="feedback.js"></script>
+    </head>
+    <body>
+        <div class="header">
+            <a class="logo"><image class="logo" src="images/textbook_library_logo.png" width=80px border-radius=50%></image></a>
+            <div class="search-container">
+                <form action="/action_page.php">
+                  <input type="text" placeholder="Search..." name="search">
+                  <button type="submit"><i class="fa fa-search" src="search.png"></i></button>
+                </form>
+            </div>
+            <div class="header-right">
+                <a href="home.html" class="active" href="#home">Home</a>
+                <a href="addBook.html">Add Textbook</a>
+                <a href="requestBook.html">Request Textbook</a>
+                <a href="about.html">About</a>
+                <a href="feedback.html">Give Feedback</a>
+            </div>
+        </div>
+
+        <div>
+            <h1>Enter your textbook request here:</h1>
+            <Label>Title:</Label>
+            <input id="requestedTitle"><br><br>
+            <Label>ISBN-13 Number:</Label>
+            <input id="isbn"><br><br>
+            <Label>Author:</Label>
+            <input id="author"><br><br>
+            <button id="requestBookSubmit" class="submit">Submit</button><br>
+        </div>
+
+        <h1 class="title" >Public Requests:</h1>
+        <div class="textbook">
+            <h2>Building Java Programs: A Back to Basics Approach</h2>
+            <p>ISBN-13: 978-0135471944</p>
+            <p>Author: Stuart Reges / Marty Stepp</p>
+        </div>
+
+        <footer>
+            <p>Interested in joining our team? Let's connect!</p>
+            <a href="mailto:fakeemail@gmail.com" style="color:blue">Send an email</a>
+        </footer>
+    </body>
+</html>
