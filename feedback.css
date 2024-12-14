@@ -1,4 +1,4 @@
-/* styles.css */
+/* CSS for the Feedback text box */
 body {
     text-align: center;
 }
@@ -14,6 +14,7 @@ textarea {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+/* CSS for the submit button on the Add and Request page */
 .submit {
     padding: 5px;
     font-size: 25px;

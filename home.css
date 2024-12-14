@@ -69,24 +69,35 @@
     background: #ccc;
   }
 
+  /* Keeps the body from being hidden behind the header on every page */
   body {
     padding-top: 110px;
   }
 
-  .aboutP {
-    padding: 0px 40px;
-    font-size: 30px;
+  /* About page */
+  .abouth1 {
+    text-align: center;
   }
 
+  .aboutP {
+    padding: 0px 150px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  /* Request page */
   .title {
     text-align: left;
   }
 
+  /* Home page and Request page */
   .textbook {
     text-align: left;
     float: left;
     padding: 0px 15px;
     background-color: #d3d3d3;
+    border-style: solid;
+    border-color: gray;
   }
 
   footer {
